@@ -1,33 +1,22 @@
 header {
-  align-items: center;
   display: flex;
-  border-bottom-width: 1px;
-  border-bottom-style: solid;
-  border-bottom-color: black;
+  align-items: center;
+  position: fixed;
+  border-bottom: 1px solid black;
+  background-color: white;
   font-family: Verdana;
   font-size: 14px;
-  font-weight: 700;
-  height: 80px;
-}
-header nav {
-  padding-right: 40px;
+  font-weight: bold;
+  line-height: 18px;
+  width: 100%;
+  height:80px
 }
 
 .logo {
+  display:flex;
   align-items: center;
-  display: flex;
   flex-grow: 1;
-  font-size: 14px;
-  font-weight: 700;
   padding-left: 30px;
-}
-
-.logo span {
-  color: #66DDAA;
-  font-size: 14px;
-  font-weight: bold;
-  width: 100%;
-  height: 65;
 }
 
 .logo img {
@@ -36,9 +25,10 @@ header nav {
   margin-right: 12px;
 }
 
-nav span {
-  color: black;
-  display: inline-block;
-  padding: 20px 10px;
+.logo span {
+  color: MediumAquamarine;
+}
 
+nav {
+  padding-right: 40px;
 }

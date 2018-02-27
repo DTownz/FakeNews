@@ -11,8 +11,39 @@ header {
   width: 100%;
   height:80px
 }
+
 body {
   margin: 0;
+}
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 325px;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  bottom: 0;
+  position: fixed;
+
+}
+
+footer .title  {
+  color: White;
+  display: inline-block;
+  padding: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+footer nav {
+  display: inline-block;
+  padding-left: 25px;
 }
 
 .logo {
@@ -115,5 +146,15 @@ nav {
 }
 
 .hipster.image-content {
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png)
+}
+
+.bite {
+  color: DimGray;
+  display: block;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px
 }
